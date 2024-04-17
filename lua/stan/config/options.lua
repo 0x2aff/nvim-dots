@@ -1,0 +1,22 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
+vim.opt.cursorline = true -- Confirm to save changes before exiting modified buffer
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.laststatus = 3 -- Global statusline
+vim.opt.list = true -- Show some invisible characters (tabs...)
+vim.opt.mouse = "a" -- Enable mouse mode
+vim.opt.number = true -- Print line number
+vim.opt.relativenumber = true --Relative line numbers
+vim.opt.shiftround = true -- Round indent
+vim.opt.shiftwidth = 2 -- Size of an indent
+vim.opt.showmode = false -- Dont show mode since we have statusline
+vim.opt.signcolumn = "yes" -- Always show the signcolumn, otherwise it would shift the text each time.
+vim.opt.smartindent = true -- Insert indents automatically
+vim.opt.splitbelow = true -- Put new windows below current
+vim.opt.splitright = true -- Put new windows right of current
+vim.opt.tabstop = 2 -- Number of spaces tabs count for
+vim.opt.termguicolors = true -- True color support
+vim.opt.virtualedit = "block" -- Allow cursor to move where there is not text in visual block mode
+vim.opt.winminwidth = 5 -- Minimum window width
+vim.opt.wrap = false -- Disable line wrap
